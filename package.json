@@ -4,16 +4,27 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
     "connect-oauth-github": "^0.1.0",
     "cookie-parser": "^1.4.3",
     "cookie-session": "^2.0.0-beta.2",
     "express": "^4.15.3",
     "github-request": "^1.2.4",
+    "mongoose": "^4.11.4",
+    "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
     "request": "^2.81.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "SET NODE_ENV=dev && node index.js",
+    "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
