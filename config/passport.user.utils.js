@@ -1,5 +1,7 @@
+const User = require('../app/models/user');
+
 function onUserFindOne(err, user, done) {
-    return (err, user) => {
+    // return (err, user) => {
         if (err) return done(err);
 
         if (user) {
@@ -17,7 +19,7 @@ function onUserFindOne(err, user, done) {
                 return done(null, newUser);
             })
         }
-    }
+    // }
 }
 
 module.exports = { onUserFindOne }
