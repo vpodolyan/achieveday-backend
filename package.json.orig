@@ -20,9 +20,13 @@
   "devDependencies": {
     "chai": "^4.1.0",
     "chai-http": "^3.0.0",
-    "chai-passport-strategy": "^1.0.0",
+    "chai-spies": "^0.7.1",
+<<<<<<< Updated upstream
     "mocha": "^3.4.2",
     "sinon": "^2.4.1"
+=======
+    "mocha": "^3.4.2"
+>>>>>>> Stashed changes
   },
   "scripts": {
     "start": "SET NODE_ENV=dev && node index.js",

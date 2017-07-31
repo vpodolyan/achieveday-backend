@@ -12,7 +12,7 @@ describe('Passport User Utils tests', () => {
     it('should return new user if not found', () => {
         const done = chai.spy();
 
-        userUtils.onUserFindOne(null, {_id: 222}, done);
+        // userUtils.onUserFindOne(null, {_id: 222}, done);
 
         done.should.have.been.called()
     });
