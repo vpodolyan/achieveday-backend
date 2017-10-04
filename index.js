@@ -17,7 +17,7 @@ const app = express();
 app.use(cookieParser());
 app.use(cookieSession({
 	name: 'session',
-    secret: 'achievmenentsaregreatthingsishouldlogin'
+    secret: 'achievmenentsaregreatthingsyoushoulddo'
 }));
 
 app.use(morgan('dev'));
